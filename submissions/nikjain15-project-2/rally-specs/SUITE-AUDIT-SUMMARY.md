@@ -35,7 +35,7 @@ ceiling hit (the ≥1k bar is cleared comfortably). The only O(cohort) cost is a
 brittle source diff), `npm run test:cross-app` (dispatch lifecycle + every adversarial case, erasure
 completeness, isolation), and `npm run test:scale`. Every fix above ships with a guarding test.
 
-**Health.** Pulse gate green — rules 127/127, integration 37/37, unit 272/272, typecheck + lint
+**Health.** Pulse gate green — **unit 627, rules 148, integration 55, e2e 66 (896 tests)**, typecheck + lint
 clean. Neither app's own gate regressed.
 
 **Two things still on Nik (not code):** confirm the `cohort-context` bus has its deny-all-client

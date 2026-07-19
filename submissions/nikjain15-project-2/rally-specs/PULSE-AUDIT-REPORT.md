@@ -9,7 +9,7 @@ pass (try to *refute* each finding) → fix confirmed issues → guard each with
 high/critical that was safely fixable was fixed and guarded; the few held back are documented below
 with the reason and a fix path. Cross-app findings are in `CROSS-APP-AUDIT-REPORT.md`.
 
-**Regression posture:** rules 127/127, integration 37/37, unit 272/272, typecheck + lint clean.
+**Regression posture:** unit 627, rules 148, integration 55, e2e 66 — **896 tests**, typecheck + lint clean. Every count reproducible with `npm run gate`.
 Scale harness (`scripts/scale/`) and cross-app suite (`npm run test:cross-app`) run green in one
 command each.
 
